@@ -1,0 +1,111 @@
+.A 
+{
+  width: 100%;
+    
+
+margin: 12px 0px;
+
+padding: 15px;
+
+
+border: 1px solid aquamarine;
+background-color:yellowgreen;
+box-sizing: border-box;
+
+
+
+
+}
+.Container{
+    padding:10px;
+}
+.B
+{
+    width:100%;
+
+   
+    
+    
+   
+   box-sizing: border-box;
+    border: 1px solid aquamarine;
+    background-color: azure;
+    
+   
+   
+}
+.B1{
+margin:6px 0px;
+padding: 15px;
+}
+.B2{
+    margin: 6px 0px;
+    padding: 15px;
+}
+.C1{
+    margin: 6px 0px;
+    padding: 15px;
+}
+.C2{
+    margin: 6px 0px;
+    padding: 15px;
+}
+.C3{
+    margin: 6px 0px;
+    padding: 15px;
+}
+
+
+.C
+{
+   
+   width: 100%;
+  
+
+
+  
+   
+    box-sizing: border-box;
+    border: 1px solid aquamarine;
+    background-color: bisque;
+   
+   
+}
+body{
+    background-color: aqua;
+    margin: 0%;
+    padding: 0%;
+   
+}
+.box1
+{
+    display: flex;
+   
+}
+.box2{
+    display: flex;
+justify-content: space-between;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width:500px){
+    .box2, .box3{
+        flex-direction: column;
+    }
+    .A {
+        width:100%;
+        
+    }
+    .B {
+        width: 100%;
+        
+    
+    }
+    .C {
+        width: 100%;
+        
+    
+    }
+}
